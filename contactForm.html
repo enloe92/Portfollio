@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <!--link to the normalize 8.0.1 file -->
+  <link href="style.css" rel="stylesheet" type="text/css" /> <!-- link to the style sheet -->
+</head>
+
+<body>
+  <header>
+    <section>
+      <!-- set as section as it wouldnt make sense on its own -->
+
+      <h1><strong>Kevin Enloe</strong></h1><!-- h1 set as strong to ensure its semantic -->
+
+      <!--h2 set as strong to ensure its semantic -->
+
+      <h2><strong>Software Developer</strong></h2>
+      <nav>
+        <ul>
+          <!--navigation links-->
+          <li><a href="index.html#introduction">Introduction</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+        </ul>
+      </nav>
+
+    </section>
+  </header>
+
+  <main>
+
+    <div class="group2">
+      <h3>Contact Form</h3>
+      <form action="https://formspree.io/f/xoqplqno" method="POST">
+        <div>
+          <label>Your Name <input type="text" name="name"></label>
+        </div>
+        <div>
+          <label>Your Email <input type="email" name="_replyto"></label>
+        </div>
+        <div>
+          <label>Your Message <textarea name="message"></textarea></label>
+        </div>
+        <input type="submit" value="Send">
+      </form>
+
+    </div>
+    <hr>
+    <div class="group2">
+      <section id="contact">
+        <h3>Contact Me</h3> <!-- contact me section -->
+        <ol>
+          <!-- ordered list of contact methods -->
+          <li><a href="https://www.linkedin.com/in/kevin-enloe-79913a1b9"><img src="images/linkdin.png" alt="LinkedIn"
+                style="width:80px;height:70px;"></a></li> <!-- linked in link-->
+          <li><a href="https://github.com/enloe92"><img src="images/github.png" alt="Github"
+                style="width:80px;height:70px;"></a></li> <!-- github link -->
+          <li><a href="contactForm.html"><img src="images/Contact.png" alt="Email" style="width:80px;height:70px;"></a>
+          <li><a href="mailto:enloe92@gmail.com"><img src="images/gmail.jpg" alt="Email"
+                style="width:80px;height:70px;"></a></li> <!-- email me link -->
+          </li> <!-- email me link -->
+        </ol><!-- close the list -->
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <nav>
+      <ul>
+        <!--navigation links-->
+        <li><a href="index.html#introduction">Introduction</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="index.html#projects">Projects</a></li>
+      </ul>
+    </nav>
+    <p>All Pictures Taken by Kevin Enloe</p> <!-- picture credit in the footer -->
+  </footer>
+</body>
+
+</html>

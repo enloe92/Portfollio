@@ -63,6 +63,7 @@ body{ /*background image and set it to cover the page and not repeat */
 }
 
 main article img{ /*center the profile picture*/
+  width:100%;
   margin: auto;
   display: flex;
   margin-top:5px;

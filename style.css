@@ -29,6 +29,9 @@ html {
   margin-left:10px;
 }
 
+.projects img{  
+  width: 95%;
+}
 .group2{
   border-radius: 20px;
   color: lightskyblue;
